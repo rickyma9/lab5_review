@@ -305,6 +305,13 @@
         0,
         0,
         null,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
         0
       ],
       "/mnt/c/users/memor/src/lab5-choretracker-starter/app/models/task.rb": [
@@ -312,6 +319,6 @@
         0
       ]
     },
-    "timestamp": 1612562982
+    "timestamp": 1612563229
   }
 }

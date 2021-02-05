@@ -14,14 +14,14 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2021-02-05T14:09:42-08:00">2021-02-05T14:09:42-08:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2021-02-05T14:13:50-08:00">2021-02-05T14:13:50-08:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">1.72%</span></span>
+    (<span class="covered_percent"><span class="red">1.68%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
@@ -32,9 +32,9 @@
   <a name="AllFiles"></a>
   <div>
     <b>12</b> files in total.
-    <b>174</b> relevant lines. 
+    <b>179</b> relevant lines. 
     <span class="green"><b>3</b> lines covered</span> and
-    <span class="red"><b>171</b> lines missed </span>
+    <span class="red"><b>176</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -143,10 +143,10 @@
       <tr>
         <td class="strong"><a href="#26765b204d0efea0135b61724dd03fcf75d3c442" class="src_link" title="app/models/child.rb">app/models/child.rb</a></td>
         <td class="red strong">0.0 %</td>
-        <td>11</td>
-        <td>8</td>
+        <td>18</td>
+        <td>13</td>
         <td>0</td>
-        <td>8</td>
+        <td>13</td>
         <td>0.0</td>
       </tr>
       
@@ -293,20 +293,20 @@
           <div class="file_list_container" id="Models">
   <h2>
     <span class="group_name">Models</span>
-    (<span class="covered_percent"><span class="red">23.08%</span></span>
+    (<span class="covered_percent"><span class="red">16.67%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.23
+         0.17
        </span>
     </span> hits/line)
   </h2>
   <a name="Models"></a>
   <div>
     <b>4</b> files in total.
-    <b>13</b> relevant lines. 
+    <b>18</b> relevant lines. 
     <span class="green"><b>3</b> lines covered</span> and
-    <span class="red"><b>10</b> lines missed </span>
+    <span class="red"><b>15</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -335,10 +335,10 @@
       <tr>
         <td class="strong"><a href="#26765b204d0efea0135b61724dd03fcf75d3c442" class="src_link" title="app/models/child.rb">app/models/child.rb</a></td>
         <td class="red strong">0.0 %</td>
-        <td>11</td>
-        <td>8</td>
+        <td>18</td>
+        <td>13</td>
         <td>0</td>
-        <td>8</td>
+        <td>13</td>
         <td>0.0</td>
       </tr>
       
@@ -2169,9 +2169,9 @@
     <h3>app/models/child.rb</h3>
     <h4><span class="red">0.0 %</span> covered</h4>
     <div>
-      <b>8</b> relevant lines. 
+      <b>13</b> relevant lines. 
       <span class="green"><b>0</b> lines covered</span> and
-      <span class="red"><b>8</b> lines missed.</span>
+      <span class="red"><b>13</b> lines missed.</span>
     </div>
   </div>
   
@@ -2235,10 +2235,52 @@
         <li class="never" data-hits="" data-linenumber="10">
           
           
-          <code class="ruby">    </code>
+          <code class="ruby"></code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="11">
+          
+          
+          <code class="ruby">  scope :alphabetical, -&gt; { order(&#39;last_name, first_name&#39;) }</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="12">
+          
+          
+          <code class="ruby">  scope :active, -&gt; { where(active: true) }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="14">
+          
+          
+          <code class="ruby">  def name</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="15">
+          
+          
+          <code class="ruby">    return first_name + &quot; &quot; + last_name</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="16">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby">    </code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="18">
           
           
           <code class="ruby">end</code>
