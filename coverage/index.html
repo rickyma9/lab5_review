@@ -14,27 +14,27 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2021-02-05T14:36:57-08:00">2021-02-05T14:36:57-08:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2021-02-05T14:57:39-08:00">2021-02-05T14:57:39-08:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">3.48%</span></span>
+    (<span class="covered_percent"><span class="red">0.0%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.05
+         0.0
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>12</b> files in total.
-    <b>201</b> relevant lines. 
-    <span class="green"><b>7</b> lines covered</span> and
-    <span class="red"><b>194</b> lines missed </span>
+    <b>202</b> relevant lines. 
+    <span class="green"><b>0</b> lines covered</span> and
+    <span class="red"><b>202</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -162,12 +162,12 @@
       
       <tr>
         <td class="strong"><a href="#e3a59696082a8bf60c27bfcbddf675c5d04aab3c" class="src_link" title="app/models/task.rb">app/models/task.rb</a></td>
-        <td class="green strong">100.0 %</td>
+        <td class="red strong">0.0 %</td>
         <td>10</td>
-        <td>7</td>
-        <td>7</td>
+        <td>8</td>
         <td>0</td>
-        <td>1.4</td>
+        <td>8</td>
+        <td>0.0</td>
       </tr>
       
     </tbody>
@@ -293,20 +293,20 @@
           <div class="file_list_container" id="Models">
   <h2>
     <span class="group_name">Models</span>
-    (<span class="covered_percent"><span class="red">17.5%</span></span>
+    (<span class="covered_percent"><span class="red">0.0%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.24
+         0.0
        </span>
     </span> hits/line)
   </h2>
   <a name="Models"></a>
   <div>
     <b>4</b> files in total.
-    <b>40</b> relevant lines. 
-    <span class="green"><b>7</b> lines covered</span> and
-    <span class="red"><b>33</b> lines missed </span>
+    <b>41</b> relevant lines. 
+    <span class="green"><b>0</b> lines covered</span> and
+    <span class="red"><b>41</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -354,12 +354,12 @@
       
       <tr>
         <td class="strong"><a href="#e3a59696082a8bf60c27bfcbddf675c5d04aab3c" class="src_link" title="app/models/task.rb">app/models/task.rb</a></td>
-        <td class="green strong">100.0 %</td>
+        <td class="red strong">0.0 %</td>
         <td>10</td>
-        <td>7</td>
-        <td>7</td>
+        <td>8</td>
         <td>0</td>
-        <td>1.4</td>
+        <td>8</td>
+        <td>0.0</td>
       </tr>
       
     </tbody>
@@ -667,7 +667,7 @@
         <li class="missed" data-hits="0" data-linenumber="7">
           
           
-          <code class="ruby">    @children = Child.all</code>
+          <code class="ruby">    @children = Child.alphabetical.all</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="8">
@@ -1130,7 +1130,7 @@
         <li class="missed" data-hits="0" data-linenumber="7">
           
           
-          <code class="ruby">    @chores = Chore.all</code>
+          <code class="ruby">    @chores = Chore.chronological.by_task.all</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="8">
@@ -2445,31 +2445,31 @@
         <div class="source_table" id="e3a59696082a8bf60c27bfcbddf675c5d04aab3c">
   <div class="header">
     <h3>app/models/task.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
+    <h4><span class="red">0.0 %</span> covered</h4>
     <div>
-      <b>7</b> relevant lines. 
-      <span class="green"><b>7</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <b>8</b> relevant lines. 
+      <span class="green"><b>0</b> lines covered</span> and
+      <span class="red"><b>8</b> lines missed.</span>
     </div>
   </div>
   
   <pre>
     <ol>
       
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="1">
+          
           
           <code class="ruby">class Task &lt; ApplicationRecord</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="2">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="2">
+          
           
           <code class="ruby">  has_many :chores</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="3">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="3">
+          
           
           <code class="ruby">  has_many :children, through: :chores</code>
         </li>
@@ -2480,14 +2480,14 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="5">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="5">
+          
           
           <code class="ruby">  validates_presence_of :name</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="6">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="6">
+          
           
           <code class="ruby">  validates_numericality_of :points, only_integer: true, greater_than_or_equal_to: 0</code>
         </li>
@@ -2498,19 +2498,19 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="8">
-          <span class="hits">3</span>
+        <li class="missed" data-hits="0" data-linenumber="8">
+          
           
           <code class="ruby">  scope :alphabetical, -&gt; { order(&#39;name&#39;) }</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="9">
-          <span class="hits">2</span>
+        <li class="missed" data-hits="0" data-linenumber="9">
+          
           
           <code class="ruby">  scope :active, -&gt; { where(active: true) }</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="10">
+        <li class="missed" data-hits="0" data-linenumber="10">
           
           
           <code class="ruby">end</code>

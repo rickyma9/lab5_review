@@ -34,18 +34,6 @@
   },
   "Unit Tests": {
     "coverage": {
-      "/mnt/c/users/memor/src/lab5-choretracker-starter/app/models/task.rb": [
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        3,
-        2,
-        null
-      ],
       "/mnt/c/users/memor/src/lab5-choretracker-starter/app/controllers/application_controller.rb": [
         0,
         null,
@@ -345,8 +333,20 @@
         0,
         null,
         0
+      ],
+      "/mnt/c/users/memor/src/lab5-choretracker-starter/app/models/task.rb": [
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0
       ]
     },
-    "timestamp": 1612564616
+    "timestamp": 1612565859
   }
 }
